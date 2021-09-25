@@ -11,15 +11,16 @@ A simple plugin for hiding secrets, passwords, etc.
 ```
 :ConcealSecrets
 ```
+Conceal secret contents. Secrets are concealed by default.
 
 ![](conceal.png)
 
-Conceal secret contents. Secrets are concealed by default.
 
 ```
 :RevealSecrets
 ```
 
+Reveal secret contents, obscured with the same foreground/background color. Use this to copy secret values to a register or external program (copy/paste).
+
 ![](reveal.png)
 
-Reveal secret contents, obscured with the same foreground/background color. Use this to copy secret values to a register or external program (copy/paste).
